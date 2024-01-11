@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Wedding</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="header">
+<h1>Our Wedding</h1>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#rsvp">RSVP</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<div id="home">
+<h2>Welcome</h2>
+<p>Welcome to our wedding website! Here, you will find all the information you need about our special day. We are so excited to share this journey with you!</p>
+</div>
+
+<div id="gallery">
+<h2>Gallery</h2>
+<p>Our gallery showcases some of our favorite moments from our wedding day. Be sure to check it out!</p>
+</div>
+
+<div id="events">
+<h2>Events</h2>
+<p>We are planning two separate events to accommodate all of our loved ones. Our ceremony will take place on Friday, June 12th, followed by a cocktail hour. Our reception will be held on Saturday, June 13th, featuring a four-course dinner, live music, and a dancing floor.</p>
+</div>
+
+<div id="rsvp">
+<h2>RSVP</h2>
+<p>Please let us know if you will be able to join us for our wedding by completing the RSVP form below. We are excited to see you there!</p>
+<form action="">
+ <label for="fname">First name:</label><br>
+ <input type="text" id="fname" name="fname"><br>
+ <label for="lname">Last name:</label><br>
+ <input type="text" id="lname" name="lname"><br>
+ <label for="attending">Will you be attending?</label><br>
+ <input type="radio" id="yes" name="attending" value="yes">
+ <label for="yes">Yes</label><br>
+ <input type="radio" id="no" name="attending" value="no">
+ <label for="no">No</label><br>
+ <input type="submit" value="Submit">
+</form>
+</div>
+
+<div id="contact">
+<h2>Contact</h2>
+<p>If you have any questions or need assistance, please feel free to contact us. We look forward to hearing from you!</p>
+<p>Email: [email protected]</p>
+<p>Phone: (123) 456-7890</p>
+</div>
+
+</div>
+
+<div id="footer">
+<p>Created by [Your Name]</p>
+</div>
+
+</body>
+</html>
